@@ -1,4 +1,4 @@
-/*
+
 #include<stdio.h>
 int sum (int num)
 {
@@ -9,15 +9,14 @@ int sum (int num)
 }
 int main()
 {
-//int range=10;
-int range;
-printf("Enter the range you want to print: ");
-scanf("%d", &range);
+int range=5;
+
+
 printf("Sum of 1st %d number (1+2+3+4+5+6+7+8+9+10) is = %d\n",range,sum(range));
 return 0;
 }
-*/
 
+/*
 #include<stdio.h>
 int sum (int n)
 {
@@ -31,3 +30,5 @@ int main()
 int result = sum (10);
 printf("%d", result);
 }
+
+*/
