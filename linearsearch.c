@@ -1,26 +1,36 @@
 #include<stdio.h>
 int main(){
 
-    int arr[6]={3,5,6,8,9,1};
-     int s_value;
+    int arr[6]={3,5,6,8,9};
+     int i,s_value;
+     int countL=0;
+  
     printf("Enter Value: ");
     scanf("%d", &s_value);
 
-    int countL=0;
-    for(int i=0;i<=arr[i]; i++){
+    
+    for( i=0;i<arr[i]; i++){
        countL++;
         if (s_value==arr[i]) {
-            int pos=i+1;
-            printf("%d", pos);
-            break;
             
+            int pos=i+1;
+
+            printf("%d\n", pos);
+            break;
         }
-        else if (i==6)
-        {
-            printf("Not Found");
-        }
-       
+        
+        
+        
     }
-        return 0;
-   
-}
+    
+    if (s_value!=arr[i])  {
+            printf("Not Found\n");
+        
+        }
+
+        printf("%d", countL);
+
+    return 0 ;
+
+    }
+    
